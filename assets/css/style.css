@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background: rgba(24, 24, 81, 0.464);
+    min-height: fit-content;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#cona {
+    position: relative;
+    padding: 20px 30px;
+    margin: 50px 0;
+    border: 3px solid #f3d3d3;
+    border-radius: 5px;
+    border-width: 50%;
+    height: 300px;
+}
+
+ul {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    box-shadow: 0 2px 2px black;
+}
+li {
+    margin-top: 18px;
+    border-top: 1px solid black;
+    list-style-type: none;
+    
+}
+
+.list-items {
+    
+}
