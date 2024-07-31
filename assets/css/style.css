@@ -1,44 +1,60 @@
-*{
+* {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-    background: rgba(24, 24, 81, 0.464);
-    min-height: fit-content;
-    min-width: auto;
+    background-color: rgba(133, 208, 227, 0.622);
+    width: 100%vw;
+    height: 100%vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: aliceblue;
-    text-transform: capitalize;
 }
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    margin-bottom: 30px;
-}
-
-#cona {
+#main-headingo{
     position: relative;
-    padding: 20px 30px;
-    margin: 50px 0;
-    border: 3px solid #f3d3d3;
-    border-radius: 5px;
-    border-width: 50%;
-    height: fit-content;
+    margin: 70px auto;
 }
 
-ul{
-    background-color: aliceblue;
-    color: rgb(0, 0, 0);
-    text-transform: capitalize;
-    box-shadow: 0 2px 2px black;
+.boxes-box-1{
+    border: 2px solid black;
+    width: 200px;
+    height: 220px;
+    margin-left: 70px;
+    box-shadow: 0 2px 2px rgb(15, 27, 27);
 }
-li {
-    margin-top: 18px;
-    border-top: 1px solid black;
-    list-style-type: none;
-    
+.boxes-box-2{
+    border: 2px solid black;
+    width: 200px;
+    height: 220px;
+    position: relative;
+    left: 350px;
+    bottom: 220px;
+    padding-left: 30px;
+    box-shadow: 0 2px 2px rgb(15, 27, 27);
+}
+
+.boxes-box-3{
+    border: 2px solid black;
+    width: 230px;
+    height: 220px;
+    position: relative;
+    left: 650px;
+    bottom: 440px;
+    padding-left: 60px;
+    box-shadow: 0 2px 2px rgb(15, 27, 27);
+}
+
+
+
+#heading{
+    position: relative;
+    padding-bottom: 100px;
+}
+
+button {
+    font-size: 20px;
+    position: relative;
+    left: 50px;
 }
